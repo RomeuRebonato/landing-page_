@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="./estilo.css">
+
+  <style>
+   body {
+    margin: 0;
+  background: url('https://www.transparenttextures.com/patterns/cubes.png'),
+  linear-gradient(to left, #ffffff, #bbd9f8);
+  background-blend-mode: multiply;
+  
+   }
+
+    table {
+      border-collapse: collapse;
+  table-layout: fixed;
+  word-wrap: break-word;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  width: 60%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 15px rgba(0, 110, 255, 0.1);
+      background-color: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+    }
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    p {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  font-size: large;
+  max-width: 1000px;
+    }
+  .centro {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+  }
+
+  figcaption {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+iframe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: top;
+  vertical-align: center;
+  max-width: 200px;
+  word-break: break-word;
+}
+thead {
+  background-color: #006eff;
+      color: white;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="curriculo.html">Currículo</a></li>
+    <li><a href="github.html">Github</a></li>
+    <li><a href="servicos.html">Serviços</a></li>
+  </ul>
+<br><br>
+<div class="centro">
+  <h1>Quem eu sou</h1>
+  <br>
+  <h2>Sobre mim</h2>
+  
+    <img src="imagens-home/romeu-foto.jpg" alt="Foto do Romeu" width="350">
+    <br>
+ 
+   <p>Meu nome é Romeu Rebonato, tenho 19 anos, nasci no dia 3 de setembro no ano de 2005 no Hospital “São Bernado” na cidade de Colatina, no estado do Espírito Santo. Morei minha vida inteira no interior da cidade de Sçao Domingos do Norte. </p>
+<br>
+<figure>
+<a href="https://www.saodomingosdonorte.es.gov.br/pagina/ler/1041/nossa-cidade" target="_blank">
+  
+   <img src="imagens-home/sao-domingos.jpg" alt="São Domingos do Norte" width="800">
+  </a>
+  <figcaption style="align-items: center; flex-direction: column; display: flex;">São Domingos do Norte</figcaption>
+</figure>
+<br>
+<p>Tenho habilidade inicial com programação em algumas linguagens como <strong>HTML</strong> e <strong>CSS</strong>. Sou uma pessoa fanática por futebol, sou vascaíno desde que me conheço como pessoa, além de ser torcedor da seleção brasileira, Cristiano Ronaldo e Juninho Pernambucano são meus ídolos do futebol.
+</p>
+<p>
+  <audio controls>
+<source src="audio-home/hino-vasco-da-gama.mp3" type="audio/mpeg">
+</audio>
+</p>
+
+<p>Gosto de jogar bola como hobby, além de jogar no computador e video game, gosto muito de ouvir sertanejo dos mais variados tipos.
+  <br><h2>Vida Acadêmica</h2>
+  <p>Fiz todo meu ensino Fundamental na escola municipal "EMEF Córrego da Divisa", localizada na comunidade Córrego da Divisa na cidade de São Domingos do Norte</p>
+
+<figure>  
+  <img src="imagens-home/escola-divisa.jpg" alt="escola da Divisa" width="800">
+<figcaption>EMEF "Córrego da Divisa"</figcaption>
+</figure>
+<br>
+<p>Fiz todo meu ensino médio "Instituto Federal do Espírito Santo", no Campus de Nova Venécia, sendo integrado a um curso de técnico de Mineração, sendo assim, tenho o certificdo de técnico de mineração. Durante o ensino médio no IFES, participei de projetos externos como o JIFES e a FECINC.</p>
+<figure style="display: flex; align-items: center; flex-direction: column;">
+  <a href="https://novavenecia.ifes.edu.br/sobre-o-campus">  <img src="imagens-home/ifes.jpg" alt="Campus Nova venecia" width="800"></a>
+ <figcaption>IFES - Campus Nova Venécia</figcaption>
+ <br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/4Z3Up-E5oBQ?si=bTjqM-IeB_YOqjB2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <figcaption>Vídeo sobre o IFES Campus Nova Venécia</figcaption>
+ <br>
+ <p>Após concluir o ensino médio, comecei a graduação em Sistema de Informação na Universidade de Vila Velha, onde estou no primeiro período</p>
+</figure>
+</p>
+<br>
+<h2>Matérias atuais da faculdade</h2>
+
+<br><p>Atualmente estou no primeiro período do curso Sistema de Informação na Universidade de Vila Velha e essas são as matérias atuais que estou cursando</p>
+<table>
+  <thead>
+  <tr>
+    <th>Matérias</th>
+    <th>Sobre a matéria</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>
+      Construção de Software para Web
+    </td>
+    <td>Tem como objetivo ensinar o desenvolvimento de aplicações web, abordando desde os conceitos fundamentais até práticas modernas de desenvolvimento.</td>
+  </tr>
+  <tr>
+    <td>Design e Desenvolvimento de Banco de Dados I</td>
+    <td>Ensina os fundamentos do armazenamento, organização, recuperação e manipulação de dados em sistemas computacionais. Ela é essencial para o desenvolvimento de sistemas de informação, aplicativos e softwares que precisam lidar com grandes volumes de dados.</td>
+
+  </tr>
+  <tr>
+    <td>Experiência e Interface com o Usuário</td>
+    <td>Essa disciplina é voltada para o design e desenvolvimento de interfaces digitais focadas nas pessoas, buscando tornar os sistemas mais intuitivos, acessíveis e agradáveis de usar.</td>
+
+  </tr>
+  <tr>
+    <td>Fundamentos de Tecnologia da Computação</td>
+    <td>É a introdução ao universo da computação, abordando os principais conceitos, componentes e funcionamento dos sistemas computacionais.
+
+    </td>
+  </tr>
+  <tr>
+    <td>Lógica para Computação</td>
+    <td>base essencial para o raciocínio lógico e para a programação, muito usada no desenvolvimento de algoritmos, linguagens formais e sistemas computacionais em geral.
+
+    </td>
+
+  </tr>
+  <tr>
+    <td>Textos Científicos: Aspectos Metodológicos e Linguísticos</td>
+    <td>Aborda a produção, estrutura e linguagem dos textos acadêmicos e científicos, fundamentais no ambiente universitário.
+
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+<h2>Meus Planos</h2>
+<p>Para o futuro, quero trabalhar na área de computação e me sustentar a partir disso, e chegar no ponto que eu consiga trabalhar home office. </p>
+  </div>
+<br><br><br><br><br><br>
+
+</body>
+</html>
